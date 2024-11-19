@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **HTML5 Canvas Applications with TypeScript**
 
-## Getting Started
+This repository contains two interactive canvas-based applications built with **Next.js** and **TypeScript**. These applications demonstrate shape drawing, customization, and editing capabilities using the HTML5 Canvas API.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Assignment 1: Border-Radius Feature in Shapes**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Objective**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a canvas-based application where users can:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Draw shapes (rectangles and circles).
+- Dynamically adjust the **border-radius** of the shapes.
+- Customize the **color** and **stroke**.
+- Save the canvas as an image.
 
-## Learn More
+### **Features**
 
-To learn more about Next.js, take a look at the following resources:
+- **Shape Selection**: Toggle between rectangles and circles.
+- **Dynamic Border-Radius**: Modify the border-radius in real time using sliders or inputs.
+- **Customization**: Set the shape's color and stroke width.
+- **Save Canvas**: Download the canvas as an image.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Getting Started**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Install dependencies
 
-## Deploy on Vercel
+- **npm install**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Start the development server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **npm run dev**
+
+### Open the application
+
+-**Visit <http://localhost:3000> in your browser.**
+
+### Usage
+
+- Select a shape type (Rectangle or Circle).
+- Adjust the border-radius, color, and stroke width using the controls.
+- Click Save Canvas to export the canvas as an image.
+
+## **Assignment 2: Custom Path Editing in Shapes**
+
+### Objective
+
+Create a canvas-based application where users can:
+
+- Draw shapes (rectangles and polygons).
+- Edit the shape paths interactively by dragging vertices.
+- Snap vertices to a grid for precise alignment.
+
+### Features
+
+- **Shape Drawing**: Draw rectangles and polygons on the canvas.
+- **Path Editing**: Drag vertices to modify shapes dynamically.
+- **Grid Snapping**: Enable snapping for better alignment.
+- **Real-time Updates**: Visual changes happen instantly during interaction.
+
+### Getting Started
+
+Clone the repository:
+
+- git clone <https://github.com/chineducode/creatvise.git>
+  cd creatvise
+
+### Install dependencies
+
+npm install
+Start the development server:
+
+- npm run dev
+- Open the application:
+- Visit <http://localhost:3000> in your browser.
+
+### Usage
+
+- Select Add Rectangle or Add Polygon to draw shapes.
+- Drag vertices to modify shape dimensions.
+- Enable Grid Snapping for precise adjustments.
+
+### Project Structure
+
+- The codebase is organized as follows:
+
+src/app: Core component for rendering the canvas and handling interactions.
+src/app/page.tsx: Entry point for the application, rendering the canvas and controls.
+src/app/first-assignment: First assignment page
+src/app/second-assignment: Second assignment page
+src/app/globals.css: Global styles for the application.
+
+### Technologies Used
+
+Next.js: Framework for server-side rendering and modern web development.
+TypeScript: Adds type safety to JavaScript.
+HTML5 Canvas API: Provides drawing capabilities for shapes and paths.
+TailwindCSS: For styling
+
+### How to Run
+
+Clone the repository:
+
+git clone <https://github.com/chineducode/creatvise.git>
+cd creatvise
+
+### Install dependencies
+
+- npm install
+
+Start the development server:
+
+- npm run dev
+- Visit <http://localhost:3000> in your browser.
+# creatvise
