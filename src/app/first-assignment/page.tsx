@@ -15,7 +15,7 @@ const FirstAssignmentPage: React.FC = () => {
         const canvas = canvasRef.current;
         const ctx = canvas?.getContext("2d");
         if (canvas && ctx) {
-            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clearing canvas
             ctx.fillStyle = color;
             ctx.strokeStyle = stroke;
     
